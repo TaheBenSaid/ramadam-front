@@ -1,0 +1,25 @@
+.dish-ingredients {
+  width: 1159px;
+  display: flex;
+  gap: 30px;
+  max-width: 1190px;
+  overflow-x: scroll;
+  cursor: pointer;
+}
+
+.ingredient-name {
+  width: 70px;
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  color: #987644;
+  margin-top: 12px;
+}
+
+.ing-pic {
+  width: 72px;
+  height: 72px;
+}

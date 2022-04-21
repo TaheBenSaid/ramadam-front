@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+@import './App.scss';
+
+@import './components/Header/Header.scss';
+
+@import './components/SearchArea/Search.scss';
+
+@import './components/Ingredients/AllIngredients.scss';
+@import './components/Ingredients/Ingredient.scss';
+
+@import './components/DishSuggestion/AllSuggestions.scss';
+@import './components/DishSuggestion/Suggestion.scss';
+
+@import './components/PrayersCard/Prayers.scss';

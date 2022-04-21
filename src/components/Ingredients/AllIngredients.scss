@@ -1,0 +1,38 @@
+.ing-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 22px;
+  color: #574747;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+
+.Suggestions-cont {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  z-index: -1;
+  overflow-x: scroll;
+  // width: 50%;
+  max-width: 1160px;
+}
+
+.dish-title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 22px;
+  color: #574747;
+}
+
+.dishes-result {
+  display: flex;
+  flex-direction: row;
+  gap: 42px;
+  z-index: -1;
+}
